@@ -1,2 +1,2 @@
-# cipi.sh
-Repo of cipi.sh website (Cipi Cloud Control Panel Project)
+# Repository of cipi.sh website (Cipi Cloud Control Panel Project)
+Website & Documentation Repository
