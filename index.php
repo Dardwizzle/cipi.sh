@@ -1,3 +1,4 @@
 <?php
+die("Test");
 
-header("location: https://cipi.sh/home");
+header("location: https://cipi.sh/home/");
