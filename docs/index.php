@@ -67,7 +67,7 @@
         <div class="flex-center position-ref full-height">
             <div class="content">
                 <div class="title m-b-md">
-                    I'm writing Cipi v2 Docs and it will be on line on May 9th, 2020.
+                    I'm writing Cipi v2 Docs and it will be on line on May 16th, 2020.
                 </div>
                 <div class="links">
                     <a href="https://andreapollastri.dev">ANDREA POLLASTRI</a>
