@@ -103,7 +103,7 @@
                 <div class="col-lg-9 ml-auto mr-auto">
                     <div class="section-title">
                         <h2>Project</h2>
-                        <p>Cipi is a Laravel based cloud server control panel that supports Digital Ocean, AWS, Vultr, Google Cloud, Linode, Azure and other VPS. It comes with nginx, Mysql, multi PHP-FPM versions, multi users, Supervisor, Composer, npm, free Let's Encrypt certificates, Git deployment, backups, postfix, phpmyadmin, fail2ban and with a simple graphical interface useful to manage Laravel, Codeigniter, Symphony, WordPress or other PHP applications. With Cipi you don’t need to be a Sys Admin to deploy and manage websites and PHP applications powered by cloud VPS.</p>
+                        <p>Cipi is a Laravel based cloud server control panel that supports Digital Ocean, AWS, Vultr, Google Cloud, Linode, Azure and other VPS. It comes with nginx, Mysql, multi PHP-FPM versions, multi users, Supervisor, Composer, npm, free Let's Encrypt certificates, Git deployment, backups, postfix, phpmyadmin, fail2ban, Redis, API, data migration and with a simple graphical interface useful to manage Laravel, Codeigniter, Symphony, WordPress or other PHP applications. With Cipi you don’t need to be a Sys Admin to deploy and manage websites and PHP applications powered by cloud VPS.</p>
                     </div>
                 </div>
             </div>
@@ -160,7 +160,7 @@
                             </div>
                             <div class="feature-text">
                                 <h3>Cipi <i class="fa fa-heart"></i> devs</h3>
-                                <p>Cipi comes with nginx, PHP, MySql, Composer, npm and Supervisor.</p>
+                                <p>Cipi comes with nginx, PHP, MySql, Redis, Composer, npm and Supervisor.</p>
                             </div>
                         </div>
                     </div>
