@@ -82,9 +82,11 @@
 					<li class="nav-item"><a class="nav-link scrollto" href="#item-4-3">Customize nginx</a></li>
 					<li class="nav-item"><a class="nav-link scrollto" href="#item-4-4">Connect a GIT</a></li>
 					<li class="nav-item"><a class="nav-link scrollto" href="#item-4-5">Redis configuration</a></li>
-					<li class="nav-item"><a class="nav-link scrollto" href="#item-4-6">Cron Jobs</a></li>
-					<li class="nav-item"><a class="nav-link scrollto" href="#item-4-7">Local backups</a></li>
-					<li class="nav-item"><a class="nav-link scrollto" href="#item-4-8">Destroy an application</a></li>
+					<li class="nav-item"><a class="nav-link scrollto" href="#item-4-6">Supervisor</a></li>
+					<li class="nav-item"><a class="nav-link scrollto" href="#item-4-7">Cron Jobs</a></li>
+					<li class="nav-item"><a class="nav-link scrollto" href="#item-4-8">Local backups</a></li>
+					<li class="nav-item"><a class="nav-link scrollto" href="#item-4-9">s3 backups</a></li>
+					<li class="nav-item"><a class="nav-link scrollto" href="#item-4-10">Destroy an application</a></li>
 				    <li class="nav-item section-title mt-3"><a class="nav-link scrollto" href="#section-5"><span class="theme-icon-holder mr-2"><i class="fas fa-globe"></i></span>Aliases</a></li>
 				    <li class="nav-item"><a class="nav-link scrollto" href="#item-5-1">Create an alias</a></li>
 				    <li class="nav-item"><a class="nav-link scrollto" href="#item-5-2">Get a SSL certificate</a></li>
@@ -466,43 +468,148 @@
 					</header>
 					
 				     <section class="docs-section" id="item-4-1">
-						<h2 class="section-heading">Section Item 4.1</h2>
-						<p>Vivamus efficitur fringilla ullamcorper. Cras condimentum condimentum mauris, vitae facilisis leo. Aliquam sagittis purus nisi, at commodo augue convallis id. Sed interdum turpis quis felis bibendum imperdiet. Mauris pellentesque urna eu leo gravida iaculis. In fringilla odio in felis ultricies porttitor. Donec at purus libero. Vestibulum libero orci, commodo nec arcu sit amet, commodo sollicitudin est. Vestibulum ultricies malesuada tempor.</p>
+						<h2 class="section-heading">Create an application</h2>
+						<p>
+							To create an application, click on button:<span style="margin-right: 8px;"></span><a href="#" class="btn btn-sm btn-secondary" style="padding: 5px;"><i class="fas fa-plus fa-sm text-white-50"></i> NEW APPLICATION</a><span style="margin-right: 8px;"></span>and fill the form with these data:
+							<div class="table-responsive my-4">
+								<table class="table table-bordered">
+									<tbody>
+										<tr>
+											<th class="theme-bg-light"><a class="theme-link" href="#">Domain</a></th>
+											<td>The main application domain (e.g. <i>domain.ltd</i> or <i>subdomain.domain.ltd</i>) </td>
+										</tr>
+										<tr>
+											<th class="theme-bg-light"><a class="theme-link" href="#">Server</a></th>
+											<td>Destination Server </td>
+										</tr>
+										
+										<tr>
+											<th class="theme-bg-light"><a class="theme-link" href="#">Basepath</a></th>
+											<td>Entrypoint of Document Root (e.g. "public" in Laravel Applications)</td>
+										</tr>
+										
+										<tr>
+											<th class="theme-bg-light"><a class="theme-link" href="#">PHP</a></th>
+											<td>PHP Version (7.2, 7.3 or 7.4) </td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+							At the end you will receive a summary with SFTP/SSH and database credentials useful to manage your new Application.
+						</p>
 					</section><!--//section-->
 					
 					<section class="docs-section" id="item-4-2">
-						<h2 class="section-heading">Section Item 4.2</h2>
-						<p>Vivamus efficitur fringilla ullamcorper. Cras condimentum condimentum mauris, vitae facilisis leo. Aliquam sagittis purus nisi, at commodo augue convallis id. Sed interdum turpis quis felis bibendum imperdiet. Mauris pellentesque urna eu leo gravida iaculis. In fringilla odio in felis ultricies porttitor. Donec at purus libero. Vestibulum libero orci, commodo nec arcu sit amet, commodo sollicitudin est. Vestibulum ultricies malesuada tempor.</p>
+						<h2 class="section-heading">Get an SSL Certificate</h2>
+						<p>
+							In Applications list you can require a main domain SSL free certificate just clicking on lock icon: <i class="fas fa-lock" style="color:gray;"></i> of desidered application and waiting for a "green check" response. Before require a certificate, double check that the domain / subdomain DNS are setted on application server IP and that there is not any proxy in the middle (such as Cloudflare proxy for e.g.).
+						</p>
 					</section><!--//section-->
 					
 					<section class="docs-section" id="item-4-3">
-							<h2 class="section-heading">Section Item 4.3</h2>
-						<p>Vivamus efficitur fringilla ullamcorper. Cras condimentum condimentum mauris, vitae facilisis leo. Aliquam sagittis purus nisi, at commodo augue convallis id. Sed interdum turpis quis felis bibendum imperdiet. Mauris pellentesque urna eu leo gravida iaculis. In fringilla odio in felis ultricies porttitor. Donec at purus libero. Vestibulum libero orci, commodo nec arcu sit amet, commodo sollicitudin est. Vestibulum ultricies malesuada tempor.</p>
+						<h2 class="section-heading">Customize nginx</h2>
+						<p>
+							You can customize every Application nginx configuration:
+							<ul>
+								<li>Run <code>ssh root@&lt;server-ip&gt;</code></li>
+								<li>Run <code>sudo nano /etc/nginx/cipi/&lt;app-user&gt;.conf</code></li>
+								<li>Edit your custom configuration</li>
+								<li>Run <code>sudo systemctl restart nginx.service</code></li>
+							</ul>
+						</p>
 					</section><!--//section-->
 
 					<section class="docs-section" id="item-4-4">
-						<h2 class="section-heading">Section Item 4.4</h2>
-						<p>Vivamus efficitur fringilla ullamcorper. Cras condimentum condimentum mauris, vitae facilisis leo. Aliquam sagittis purus nisi, at commodo augue convallis id. Sed interdum turpis quis felis bibendum imperdiet. Mauris pellentesque urna eu leo gravida iaculis. In fringilla odio in felis ultricies porttitor. Donec at purus libero. Vestibulum libero orci, commodo nec arcu sit amet, commodo sollicitudin est. Vestibulum ultricies malesuada tempor.</p>
+						<h2 class="section-heading">Connect a GIT</h2>
+						<p>
+							With Cipi connect a private or public Github repository to your account is very easy!
+							<li>Run <code>ssh &lt;app-user&gt;@&lt;server-ip&gt;</code></li>
+							<li>Run <code>rm -rf /home/&lt;app-user&gt;/web</code> (all application web contents will be delete)</li>
+							<li>Copy <i>/home/&lt;app-user&gt;/git/deploy.pub</i> into <a href="https://github.com/settings/keys" target="_blank">Github SSH Keys</a></li>
+							<li>Run <code>nano /home/&lt;app-user&gt;/git/deploy.sh</code></li>
+							<li>Edit your Git repository name, branch and optional post deploy scripts</li>
+							<li>Run <code>sh /home/&lt;app-user&gt;/git/deploy.sh</code> to deploy Git on your server</li>
+							<li>You can create a PHP webhook (git ignored) into your /web folder with command with exec commant to deploy.sh</li>
+						</p>
 					</section><!--//section-->
+
 
 					<section class="docs-section" id="item-4-5">
-						<h2 class="section-heading">Section Item 4.5</h2>
-						<p>Vivamus efficitur fringilla ullamcorper. Cras condimentum condimentum mauris, vitae facilisis leo. Aliquam sagittis purus nisi, at commodo augue convallis id. Sed interdum turpis quis felis bibendum imperdiet. Mauris pellentesque urna eu leo gravida iaculis. In fringilla odio in felis ultricies porttitor. Donec at purus libero. Vestibulum libero orci, commodo nec arcu sit amet, commodo sollicitudin est. Vestibulum ultricies malesuada tempor.</p>
+						<h2 class="section-heading">Redis Configuration</h2>
+						<p>
+							Redis is available in every Applications using:
+							<div class="table-responsive my-4">
+								<table class="table table-bordered">
+									<tbody>
+										<tr>
+											<th class="theme-bg-light"><a class="theme-link" href="#">Host</a></th>
+											<td>127.0.0.1</td>
+										</tr>
+										<tr>
+											<th class="theme-bg-light"><a class="theme-link" href="#">Port</a></th>
+											<td>6379 </td>
+										</tr>
+										
+										<tr>
+											<th class="theme-bg-light"><a class="theme-link" href="#">Auth</a></th>
+											<td><i>No password</i></td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</p>
 					</section><!--//section-->
 
+
 					<section class="docs-section" id="item-4-6">
-						<h2 class="section-heading">Section Item 4.6</h2>
-						<p>Vivamus efficitur fringilla ullamcorper. Cras condimentum condimentum mauris, vitae facilisis leo. Aliquam sagittis purus nisi, at commodo augue convallis id. Sed interdum turpis quis felis bibendum imperdiet. Mauris pellentesque urna eu leo gravida iaculis. In fringilla odio in felis ultricies porttitor. Donec at purus libero. Vestibulum libero orci, commodo nec arcu sit amet, commodo sollicitudin est. Vestibulum ultricies malesuada tempor.</p>
+						<h2 class="section-heading">Supervisor</h2>
+						<p>
+							To manage Supervisor configuration:
+							<ul>
+								<li>Run <code>ssh root@&lt;server-ip&gt;</code></li>
+								<li>Run <code>sudo nano /etc/supervisor/supervisord.conf</code></li>
+								<li>Edit your custom configuration</li>
+								<li>Run <code>sudo service supervisor restart</code></li>
+							</ul>
+						</p>
 					</section><!--//section-->
 
 					<section class="docs-section" id="item-4-7">
-						<h2 class="section-heading">Section Item 4.7</h2>
-						<p>Vivamus efficitur fringilla ullamcorper. Cras condimentum condimentum mauris, vitae facilisis leo. Aliquam sagittis purus nisi, at commodo augue convallis id. Sed interdum turpis quis felis bibendum imperdiet. Mauris pellentesque urna eu leo gravida iaculis. In fringilla odio in felis ultricies porttitor. Donec at purus libero. Vestibulum libero orci, commodo nec arcu sit amet, commodo sollicitudin est. Vestibulum ultricies malesuada tempor.</p>
+						<h2 class="section-heading">Cron Jobs</h2>
+						<p>
+							You can manage cron job SSHing into your server:
+							<ul>
+								<li>Run <code>ssh &lt;app-user&gt;@&lt;server-ip&gt;</code></li>
+								<li>Run <code>crontab -e</code></li>
+								<li>Edit your crons</li>
+							</ul>
+							Take care that you application is running into <i>/home/&lt;app-user&gt;/web</i> directory.
+						</p>
 					</section><!--//section-->
 
 					<section class="docs-section" id="item-4-8">
-						<h2 class="section-heading">Section Item 4.8</h2>
-						<p>Vivamus efficitur fringilla ullamcorper. Cras condimentum condimentum mauris, vitae facilisis leo. Aliquam sagittis purus nisi, at commodo augue convallis id. Sed interdum turpis quis felis bibendum imperdiet. Mauris pellentesque urna eu leo gravida iaculis. In fringilla odio in felis ultricies porttitor. Donec at purus libero. Vestibulum libero orci, commodo nec arcu sit amet, commodo sollicitudin est. Vestibulum ultricies malesuada tempor.</p>
+						<h2 class="section-heading">Local backups</h2>
+						<p>
+							With Cipi you can quickly backup your application file system and database:
+							<li>Run <code>ssh &lt;app-user&gt;@&lt;server-ip&gt;</code></li>
+							<li>Run <code>nano /home/&lt;app-user&gt;/bks/db.sh</code></li>
+							<li>Edit your database informations and set backup retain days</li>
+							<li>Run <code>nano /home/&lt;app-user&gt;/bks/fs.sh</code></li>
+							<li>Set backup retain days</li>
+							<li>Run <code>sh /home/&lt;app-user&gt;/bks/db.sh</code> to dump your Application database</li>
+							<li>Run <code>sh /home/&lt;app-user&gt;/bks/fs.sh</code> to backup your <i>web</i> directory</li>
+							<li>Backups are avalable into /bks subdirs. You can use a cron to automate backups</li>
+						</p>
+					</section><!--//section-->
+
+					<section class="docs-section" id="item-4-9">
+						<h2 class="section-heading">s3 backups</h2>
+						<p>This function will coming soon...</p>
+					</section><!--//section-->
+
+					<section class="docs-section" id="item-4-10">
+						<h2 class="section-heading">Destroy an application</h2>
+						<p>To destroy an application you have just to click the trash icon: <i class="fas fa-trash" style="color:gray;"></i> of the desidered application and confirm destroy action.</p>
 					</section><!--//section-->  
 
 			    </article><!--//docs-article-->
