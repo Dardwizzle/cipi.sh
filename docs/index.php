@@ -721,7 +721,7 @@
 					</section><!--//section-->
 					
 					<section class="docs-section" id="item-8-3">
-						<h2 class="section-heading">Migration</h2>
+						<h2 class="section-heading">Migrations</h2>
 						<p>
 							With Cipi Import / Export function you can move your servers data from a Cipi installation to another with a simple click!<br>
 							This feature is active since Cipi v2.4.7 and let you to update Cipi core without losing/reconfig anything.
