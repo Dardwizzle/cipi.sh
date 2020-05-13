@@ -7,8 +7,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="Cipi Open Source Control Panel for your Cloud Documentation">
+    <meta name="author" content="Andrea Pollastri">
     
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" rel="stylesheet">
@@ -109,7 +109,7 @@
 		    <div class="container">
 			    <article class="docs-article" id="section-1">
 				    <header class="docs-header">
-					    <h1 class="docs-heading">Getting Started <span class="docs-time">Last updated: 2020-05-16</span></h1>
+					    <h1 class="docs-heading">Getting Started <span class="docs-time">Last updated: 2020-05-13</span></h1>
 					    <section class="docs-intro">
 						    <p>Cipi is a Laravel based cloud server control panel that supports Digital Ocean, AWS, Vultr, Google Cloud, Linode, Azure and other VPS. It comes with nginx, Mysql, multi PHP-FPM versions, multi users, Supervisor, Composer, npm, free Let's Encrypt certificates, Git deployment, backups, postfix, phpmyadmin, fail2ban, Redis, API, data migration and with a simple graphical interface useful to manage Laravel, Codeigniter, Symphony, WordPress or other PHP applications. With Cipi you don’t need to be a Sys Admin to deploy and manage websites and PHP applications powered by cloud VPS.</p>
 						</section><!--//docs-intro-->
@@ -681,7 +681,9 @@
 				    <header class="docs-header">
 					    <h1 class="docs-heading">Users</h1>
 					    <section class="docs-intro">
-						    <p>Section intro goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque finibus condimentum nisl id vulputate. Praesent aliquet varius eros interdum suscipit. Donec eu purus sed nibh convallis bibendum quis vitae turpis. Duis vestibulum diam lorem, vitae dapibus nibh facilisis a. Fusce in malesuada odio.</p>
+						    <p>
+								Users area shows a list of Applications Users with their basic information and the reset user password button (key icon: <i class="fas fa-key" style="color:gray;"></i>).
+							</p>
 						</section><!--//docs-intro-->
 				    </header>
 			    </article><!--//docs-article-->
@@ -694,7 +696,9 @@
 				    <header class="docs-header">
 					    <h1 class="docs-heading">Databases</h1>
 					    <section class="docs-intro">
-						    <p>Section intro goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque finibus condimentum nisl id vulputate. Praesent aliquet varius eros interdum suscipit. Donec eu purus sed nibh convallis bibendum quis vitae turpis. Duis vestibulum diam lorem, vitae dapibus nibh facilisis a. Fusce in malesuada odio.</p>
+						    <p>
+								Databases area shows a list of Applications Dbs with their basic information, the reset db user password button (key icon: <i class="fas fa-key" style="color:gray;"></i>) and the phpmyadmin link button (table icon: <i class="fas fa-table" style="color:gray;"></i>).
+							</p>
 						</section><!--//docs-intro-->
 				    </header>
 			    </article><!--//docs-article-->
@@ -705,28 +709,30 @@
 			    <article class="docs-article" id="section-8">
 				    <header class="docs-header">
 					    <h1 class="docs-heading">Settings</h1>
-					    <section class="docs-intro">
-						    <p>Section intro goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque finibus condimentum nisl id vulputate. Praesent aliquet varius eros interdum suscipit. Donec eu purus sed nibh convallis bibendum quis vitae turpis. Duis vestibulum diam lorem, vitae dapibus nibh facilisis a. Fusce in malesuada odio.</p>
-						</section><!--//docs-intro-->
 				    </header>
 				     <section class="docs-section" id="item-8-1">
-						<h2 class="section-heading">Section Item 8.1</h2>
-						<p>Vivamus efficitur fringilla ullamcorper. Cras condimentum condimentum mauris, vitae facilisis leo. Aliquam sagittis purus nisi, at commodo augue convallis id. Sed interdum turpis quis felis bibendum imperdiet. Mauris pellentesque urna eu leo gravida iaculis. In fringilla odio in felis ultricies porttitor. Donec at purus libero. Vestibulum libero orci, commodo nec arcu sit amet, commodo sollicitudin est. Vestibulum ultricies malesuada tempor.</p>
+						<h2 class="section-heading">Manage accout</h2>
+						<p>Into settings area you can update your login information (username and password).</p>
 					</section><!--//section-->
 					
 					<section class="docs-section" id="item-8-2">
-						<h2 class="section-heading">Section Item 8.2</h2>
-						<p>Vivamus efficitur fringilla ullamcorper. Cras condimentum condimentum mauris, vitae facilisis leo. Aliquam sagittis purus nisi, at commodo augue convallis id. Sed interdum turpis quis felis bibendum imperdiet. Mauris pellentesque urna eu leo gravida iaculis. In fringilla odio in felis ultricies porttitor. Donec at purus libero. Vestibulum libero orci, commodo nec arcu sit amet, commodo sollicitudin est. Vestibulum ultricies malesuada tempor.</p>
+						<h2 class="section-heading">SMTP Configuration</h2>
+						<p>Into settings area you can set a SMPT configuration useful to active "password recovery" function and other future Cipi implementations (such as Servers Monitor Alerts).</p>
 					</section><!--//section-->
 					
 					<section class="docs-section" id="item-8-3">
-							<h2 class="section-heading">Section Item 8.3</h2>
-						<p>Vivamus efficitur fringilla ullamcorper. Cras condimentum condimentum mauris, vitae facilisis leo. Aliquam sagittis purus nisi, at commodo augue convallis id. Sed interdum turpis quis felis bibendum imperdiet. Mauris pellentesque urna eu leo gravida iaculis. In fringilla odio in felis ultricies porttitor. Donec at purus libero. Vestibulum libero orci, commodo nec arcu sit amet, commodo sollicitudin est. Vestibulum ultricies malesuada tempor.</p>
+						<h2 class="section-heading">Migration</h2>
+						<p>
+							With Cipi Import / Export function you can move your servers data from a Cipi installation to another with a simple click!<br>
+							This feature is active since Cipi v2.4.7 and let you to update Cipi core without losing/reconfig anything.
+						</p>
 					</section><!--//section-->
 
 					<section class="docs-section" id="item-8-4">
-						<h2 class="section-heading">Section Item 8.4</h2>
-					<p>Vivamus efficitur fringilla ullamcorper. Cras condimentum condimentum mauris, vitae facilisis leo. Aliquam sagittis purus nisi, at commodo augue convallis id. Sed interdum turpis quis felis bibendum imperdiet. Mauris pellentesque urna eu leo gravida iaculis. In fringilla odio in felis ultricies porttitor. Donec at purus libero. Vestibulum libero orci, commodo nec arcu sit amet, commodo sollicitudin est. Vestibulum ultricies malesuada tempor.</p>
+						<h2 class="section-heading">API Key</h2>
+						<p>
+							Cipi API are not ready yet. :/ 
+						</p>
 				</section><!--//section-->
 			    </article><!--//docs-article-->
 			    
