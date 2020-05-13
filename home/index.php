@@ -77,7 +77,7 @@
                             <h1>An Open Source <br>Cloud Control Panel</h1>
                             <p>With Cipi you don’t need to be a Sys Admin to deploy and manage websites and PHP applications powered by cloud VPS</p>
                             <div class="slider-button">
-                                <a href="https://cipi.sh/docs/" target="_blank" class=" slider-btn uppercase"><span><i class="fa fa-book"></i>Documentation</span></a>
+                                <a href="https://cipi.sh/docs/" class=" slider-btn uppercase"><span><i class="fa fa-book"></i>Documentation</span></a>
                                 <a href="https://github.com/andreapollastri/cipi" target="_blank" class="slider-btn uppercase"><span><i class="fa fa-github"></i>Download</span></a>
                             </div>
                             
@@ -317,7 +317,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="download-buttons text-center">
-                        <a href="https://cipi.sh/docs" target="_blank" class="button"> <i class="fa fa-book"></i> DOCUMENTATION</a>
+                        <a href="https://cipi.sh/docs" class="button"> <i class="fa fa-book"></i> DOCUMENTATION</a>
                         <a href="https://github.com/andreapollastri/cipi" target="_blank" class="button"><i class="fa fa-github"></i> REPOSITORY</a>
                     </div>
                 </div>

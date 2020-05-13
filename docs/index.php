@@ -8,7 +8,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Cipi Open Source Control Panel for your Cloud Documentation">
-    <meta name="author" content="Andrea Pollastri">
+	<meta name="author" content="Andrea Pollastri">
+	
+	<link rel="icon" href="https://cipi.sh/assets/images/favicon.png">
     
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" rel="stylesheet">
