@@ -790,7 +790,6 @@
     </div><!--//docs-wrapper-->
     
    
-       
     <!-- Javascript -->          
     <script src="assets/plugins/jquery-3.4.1.min.js"></script>
     <script src="assets/plugins/popper.min.js"></script>
@@ -802,7 +801,17 @@
     <script src="assets/js/highlight-custom.js"></script> 
     <script src="assets/plugins/jquery.scrollTo.min.js"></script>
     <script src="assets/plugins/lightbox/dist/ekko-lightbox.min.js"></script> 
-    <script src="assets/js/docs.js"></script> 
+	<script src="assets/js/docs.js"></script> 
+	
+	<!-- ga -->   
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-1396990-60"></script>
+	<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+
+	gtag('config', 'UA-1396990-60');
+	</script>
 
 </body>
 </html> 
