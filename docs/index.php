@@ -719,7 +719,7 @@
 					
 					<section class="docs-section" id="item-8-2">
 						<h2 class="section-heading">SMTP Setup</h2>
-						<p>Into settings area you can set a SMPT configuration useful to active "password recovery" function and other future Cipi implementations (such as Servers Monitor Alerts).</p>
+						<p>Into settings area you can set a SMTP configuration useful to active "password recovery" function and other future Cipi implementations (such as Servers Monitor Alerts).</p>
 					</section><!--//section-->
 					
 					<section class="docs-section" id="item-8-3">
