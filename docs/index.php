@@ -525,7 +525,7 @@
 							With Cipi connect a private or public Github repository to your account is very easy!
 							<li>Run <code>ssh &lt;app-user&gt;@&lt;server-ip&gt;</code></li>
 							<li>Run <code>rm -rf /home/&lt;app-user&gt;/web</code> (all application web contents will be delete)</li>
-							<li>Copy <i>/home/&lt;app-user&gt;/git/deploy.pub</i> into <a href="https://github.com/settings/keys" target="_blank">Github SSH Keys</a></li>
+							<li>Copy <i>/home/&lt;app-user&gt;/git/deploy.pub</i> into <a class="theme-link" href="https://github.com/settings/keys" target="_blank">Github SSH Keys</a></li>
 							<li>Run <code>nano /home/&lt;app-user&gt;/git/deploy.sh</code></li>
 							<li>Edit your Git repository name, branch and optional post deploy scripts</li>
 							<li>Run <code>sh /home/&lt;app-user&gt;/git/deploy.sh</code> to deploy Git on your server</li>
@@ -754,9 +754,9 @@
 					    <h1 class="docs-heading">Support</h1>
 					    <section class="docs-intro">
 						    <p>
-								Cipi is an open-source software licensed under the MIT license and developed by <a target="_blank" href="https://andreapollastri.dev"><u>Andrea Pollastri</u></a>.<br>
-								You can follow Cipi Project RoadMap <a target="_blank" href="https://github.com/andreapollastri/cipi/projects"><u>here</u></a>. If you have any issue with Cipi, please open an <a target="_blank" href="https://github.com/andreapollastri/cipi/issues"><u>issue on Github</u></a>.<br>
-								If you discover a security vulnerability within Cipi, please open an <a target="_blank" href="https://github.com/andreapollastri/cipi/issues"><u>issue on Github</u></a> or send an e-mail to <a href="mailto:andrea@pollastri.dev"><u>andrea@pollastri.dev</u></a>. All security vulnerabilities will be promptly addressed. 
+								Cipi is an open-source software licensed under the MIT license and developed by <a target="_blank" class="theme-link"  href="https://andreapollastri.dev"><u>Andrea Pollastri</u></a>.<br>
+								You can follow Cipi Project RoadMap <a target="_blank" class="theme-link"  href="https://github.com/andreapollastri/cipi/projects"><u>here</u></a>. If you have any issue with Cipi, please open an <a target="_blank" class="theme-link"  href="https://github.com/andreapollastri/cipi/issues"><u>issue on Github</u></a>.<br>
+								If you discover a security vulnerability within Cipi, please open an <a target="_blank" class="theme-link"  href="https://github.com/andreapollastri/cipi/issues"><u>issue on Github</u></a> or send an e-mail to <a class="theme-link" href="mailto:andrea@pollastri.dev"><u>andrea@pollastri.dev</u></a>. All security vulnerabilities will be promptly addressed. 
 							</p>
 						</section><!--//docs-intro-->
 				    </header>
