@@ -460,7 +460,7 @@
 									<li>Application (document root) Path</li>
 									<li>Application PHP Version</li>
 									<li>Application Aliases Number</li>
-									<li>Application Action (Domain SSL user and Destroy application)</li>
+									<li>Application Action (Domain SSL and Destroy Application)</li>
 								</ul>
 								<div class="minispace"></div>
 							</p>
@@ -623,23 +623,54 @@
 				    <header class="docs-header">
 					    <h1 class="docs-heading">Aliases</h1>
 					    <section class="docs-intro">
-						    <p>Section intro goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque finibus condimentum nisl id vulputate. Praesent aliquet varius eros interdum suscipit. Donec eu purus sed nibh convallis bibendum quis vitae turpis. Duis vestibulum diam lorem, vitae dapibus nibh facilisis a. Fusce in malesuada odio.</p>
+						    <p>
+								With Cipi you can manage Applications domains alises (such as www.domain.ltd as alias of domain.ltd). This function is useful for multitenant applications too (e.g. it.domain.ltd, en.domain.ltd or user1.domain.ltd, user2.domain.ltd).
+								<div class="minispace"></div>
+								Alias area is for viewing your aliases list, require SSL certificates on alias domain, create new Alias or delete one of them. The page will display:
+								<div class="minispace"></div>
+								<ul>
+									<li>Alias Domain</li>
+									<li>Application (main) Domain</li>
+									<li>Application Server</li>
+									<li>Application User</li>
+									<li>Alias Action (Domain SSL and Destroy Alias)</li>
+								</ul>
+								<div class="minispace"></div>
+							</p>
 						</section><!--//docs-intro-->
 				    </header>
 				     <section class="docs-section" id="item-5-1">
-						<h2 class="section-heading">Section Item 5.1</h2>
-						<p>Vivamus efficitur fringilla ullamcorper. Cras condimentum condimentum mauris, vitae facilisis leo. Aliquam sagittis purus nisi, at commodo augue convallis id. Sed interdum turpis quis felis bibendum imperdiet. Mauris pellentesque urna eu leo gravida iaculis. In fringilla odio in felis ultricies porttitor. Donec at purus libero. Vestibulum libero orci, commodo nec arcu sit amet, commodo sollicitudin est. Vestibulum ultricies malesuada tempor.</p>
+						<h2 class="section-heading">Create an alias</h2>
+						<p>
+							To create an alias, click on button:<span style="margin-right: 8px;"></span><a href="#" class="btn btn-sm btn-secondary" style="padding: 5px;"><i class="fas fa-plus fa-sm text-white-50"></i> NEW ALIAS</a><span style="margin-right: 8px;"></span>and fill the form with these data:
+							<div class="table-responsive my-4">
+								<table class="table table-bordered">
+									<tbody>
+										<tr>
+											<th class="theme-bg-light"><a class="theme-link" href="#">Domain</a></th>
+											<td>e.g. <i>www.domain.ltd</i> </td>
+										</tr>
+										<tr>
+											<th class="theme-bg-light"><a class="theme-link" href="#">Application</a></th>
+											<td>Choose Application to connect</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</p>
 					</section><!--//section-->
 					
 					<section class="docs-section" id="item-5-2">
-						<h2 class="section-heading">Section Item 5.2</h2>
-						<p>Vivamus efficitur fringilla ullamcorper. Cras condimentum condimentum mauris, vitae facilisis leo. Aliquam sagittis purus nisi, at commodo augue convallis id. Sed interdum turpis quis felis bibendum imperdiet. Mauris pellentesque urna eu leo gravida iaculis. In fringilla odio in felis ultricies porttitor. Donec at purus libero. Vestibulum libero orci, commodo nec arcu sit amet, commodo sollicitudin est. Vestibulum ultricies malesuada tempor.</p>
+						<h2 class="section-heading">Get an SSL Certificate</h2>
+						<p>
+							In Alises list you can require a domain SSL free certificate just clicking on lock icon: <i class="fas fa-lock" style="color:gray;"></i> of desidered alias and waiting for a "green check" response. Before require a certificate, double check that the domain / subdomain DNS are setted on application server IP and that there is not any proxy in the middle (such as Cloudflare proxy for e.g.).
+						</p>
 					</section><!--//section-->
 					
 					<section class="docs-section" id="item-5-3">
-							<h2 class="section-heading">Section Item 5.3</h2>
-						<p>Vivamus efficitur fringilla ullamcorper. Cras condimentum condimentum mauris, vitae facilisis leo. Aliquam sagittis purus nisi, at commodo augue convallis id. Sed interdum turpis quis felis bibendum imperdiet. Mauris pellentesque urna eu leo gravida iaculis. In fringilla odio in felis ultricies porttitor. Donec at purus libero. Vestibulum libero orci, commodo nec arcu sit amet, commodo sollicitudin est. Vestibulum ultricies malesuada tempor.</p>
-					</section><!--//section-->
+						<h2 class="section-heading">Destroy an alias</h2>
+						<p>To destroy an alias you have just to click the trash icon: <i class="fas fa-trash" style="color:gray;"></i> of the desidered alias and confirm destroy action.</p>
+					</section><!--//section-->  
 			    </article><!--//docs-article-->
 
 
