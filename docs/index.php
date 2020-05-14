@@ -2,28 +2,16 @@
 <html lang="en"> 
 <head>
     <title>Cipi Cloud Control Panel | Documentation</title>
-    
-    <!-- Meta -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Cipi Open Source Control Panel for your Cloud Documentation">
 	<meta name="author" content="Andrea Pollastri">
-	
 	<link rel="icon" href="https://cipi.sh/assets/images/favicon.png">
-    
-    <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" rel="stylesheet">
-    
-    <!-- FontAwesome JS-->
     <script defer src="assets/fontawesome/js/all.min.js"></script>
-    
-    <!-- Plugins CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.2/styles/atom-one-dark.min.css">
-
-    <!-- Theme CSS -->  
 	<link id="theme-style" rel="stylesheet" href="assets/css/theme.css">
-	
 	<style>
 	.minispace {
 		min-height:5px;
@@ -32,7 +20,6 @@
 		min-height:25px;
 	}
 	</style>
-
 </head> 
 
 <body class="docs-page">    
@@ -46,17 +33,17 @@
 	                    <span></span>
 	                </button>
 	                <div class="site-logo"><a class="navbar-brand" href="https://cipi.sh"><img class="logo-icon mr-2" src="https://cipi.sh/home/assets/images/logo.png" alt="logo"><span class="logo-text">D<span class="text-alt">ocs</span></span></a></div>    
-                </div><!--//docs-logo-wrapper-->
+                </div>
 	            <div class="docs-top-utilities d-flex justify-content-end align-items-center">
 					<ul class="social-list list-inline mx-md-3 mx-lg-5 mb-0 d-none d-lg-flex">
 						<li class="list-inline-item"><a target="_blank" href="https://github.com/andreapollastri/cipi"><i class="fab fa-github fa-fw"></i></a></li>
 			            <li class="list-inline-item"><a target="_blank" href="https://www.facebook.com/cipipanel"><i class="fab fa-facebook fa-fw"></i></a></li>
-		            </ul><!--//social-list-->
+		            </ul>
 		            <a href="https://github.com/andreapollastri/cipi" class="btn btn-primary d-none d-lg-flex" target="_blank">Repository</a>
-	            </div><!--//docs-top-utilities-->
-            </div><!--//container-->
-        </div><!--//branding-->
-    </header><!--//header-->
+	            </div>
+            </div>
+        </div>
+    </header>
     
     <div class="docs-wrapper">
 	    <div id="docs-sidebar" class="docs-sidebar">
@@ -105,8 +92,8 @@
 					<li class="nav-item section-title mt-3"><a class="nav-link scrollto" href="#section-11"><span class="theme-icon-holder mr-2"><i class="fas fa-code"></i></span>Credits</a></li>
 			    </ul>
 
-		    </nav><!--//docs-nav-->
-	    </div><!--//docs-sidebar-->
+		    </nav>
+	    </div>
 	    <div class="docs-content">
 		    <div class="container">
 			    <article class="docs-article" id="section-1">
@@ -114,7 +101,7 @@
 					    <h1 class="docs-heading">Getting Started <span class="docs-time">Last updated: 2020-05-13</span></h1>
 					    <section class="docs-intro">
 						    <p>Cipi is a Laravel based cloud server control panel that supports Digital Ocean, AWS, Vultr, Google Cloud, Linode, Azure and other VPS. It comes with nginx, Mysql, multi PHP-FPM versions, multi users, Supervisor, Composer, npm, free Let's Encrypt certificates, Git deployment, backups, postfix, phpmyadmin, fail2ban, Redis, API, data migration and with a simple graphical interface useful to manage Laravel, Codeigniter, Symphony, WordPress or other PHP applications. With Cipi you don’t need to be a Sys Admin to deploy and manage websites and PHP applications powered by cloud VPS.</p>
-						</section><!--//docs-intro-->
+						</section>
 				    </header>
 				    <section class="docs-section" id="item-1-1">
 						<h2 class="section-heading">Features</h2>
@@ -239,7 +226,7 @@
 						</div>
 
 
-					</section><!--//section-->
+					</section>
 					
 					<section class="docs-section" id="item-1-2">
 						<h2 class="section-heading">Installation</h2>
@@ -262,12 +249,12 @@
 									<h4 class="callout-title">
 										<span class="callout-icon-holder mr-1">
 											<i class="fas fa-info-circle"></i>
-										</span><!--//icon-holder-->
+										</span>
 										Note
 									</h4>
 									<p>it doesn't work with IPv6... use only IPv4 and no localhost, VPS has to be online to work remotely with its clients servers.</p>
-								</div><!--//content-->
-							</div><!--//callout-block-->
+								</div>
+							</div>
 						</p>
 						<div class="space"></div>
 						<h5>Via Composer (Laravel Project)</h5>
@@ -287,17 +274,17 @@
 									<h4 class="callout-title">
 										<span class="callout-icon-holder mr-1">
 											<i class="fas fa-info-circle"></i>
-										</span><!--//icon-holder-->
+										</span>
 										Note
 									</h4>
 									<p>Cipi has to be online to work remotely with its clients servers.</p>
-								</div><!--//content-->
-							</div><!--//callout-block-->
+								</div>
+							</div>
 						</p>
 						
 						
 						
-					</section><!--//section-->
+					</section>
 					
 					<section class="docs-section" id="item-1-3">
 						<h2 class="section-heading">Security Tips</h2>
@@ -324,7 +311,7 @@
 							<li>Run <code>php artisan config:cache</code></li>
 						</ul>
 					</p>
-					</section><!--//section-->
+					</section>
 				</article>
 
 
@@ -345,9 +332,9 @@
 									<li>Server Ping (On-line / Not on-line)</li>
 								</ul>
 							</p>
-						</section><!--//docs-intro-->
+						</section>
 				    </header>
-				</article><!--//docs-article-->
+				</article>
 				
 
 
@@ -370,7 +357,7 @@
 								<div class="minispace"></div>
 								You can rename any server name or change any server IP clicking on edit icons: <i class="far fa-edit"></i>;
 							</p>
-						</section><!--//docs-intro-->
+						</section>
 				    </header>
 				     <section class="docs-section" id="item-3-1">
 						<h2 class="section-heading">Deploy Server</h2>
@@ -409,7 +396,7 @@
 							At the end of installation process, Cipi will show some password that you have to conserve.<br>
 							Server is now ready to be used into Cipi Cloud Control Panel.
 						</p>
-					</section><!--//section-->
+					</section>
 					
 					<section class="docs-section" id="item-3-2">
 						<h2 class="section-heading">Reset main user</h2>
@@ -417,7 +404,7 @@
 							For security reasons, Cipi disables "root" SSH access but generate a new "cipi" sudo main user into your server to let you to login into it and to grant root access using "sudo su" or "sudo -s" (in AWS) commands.<br>
 							To reset "cipi" user password, click on the key icon: <i class="fas fa-key" style="color:gray;"></i> of the desidered server and confirm reset action.
 						</p>
-					</section><!--//section-->
+					</section>
 					
 					<section class="docs-section" id="item-3-3">
 						<h2 class="section-heading">Restart Services</h2>
@@ -432,14 +419,14 @@
 								<li>Supervisor</li>
 							</ul>
 						</p>
-					</section><!--//section-->
+					</section>
 
 					<section class="docs-section" id="item-3-4">
 						<h2 class="section-heading">Destroy a server</h2>
 						<p>To destroy a server you have just to click the trash icon: <i class="fas fa-trash" style="color:gray;"></i> of the desidered server and confirm destroy action.</p>
-					</section><!--//section-->
+					</section>
 
-				</article><!--//docs-article-->
+				</article>
 			
 
 
@@ -466,7 +453,7 @@
 								</ul>
 								<div class="minispace"></div>
 							</p>
-						</section><!--//docs-intro-->
+						</section>
 					</header>
 					
 				     <section class="docs-section" id="item-4-1">
@@ -499,14 +486,14 @@
 							</div>
 							At the end you will receive a summary with SFTP/SSH and database credentials useful to manage your new Application.
 						</p>
-					</section><!--//section-->
+					</section>
 					
 					<section class="docs-section" id="item-4-2">
 						<h2 class="section-heading">Get an SSL Certificate</h2>
 						<p>
 							In Applications list you can require a main domain SSL free certificate just clicking on lock icon: <i class="fas fa-lock" style="color:gray;"></i> of desidered application and waiting for a "green check" response. Before require a certificate, double check that the domain / subdomain DNS are setted on application server IP and that there is not any proxy in the middle (such as Cloudflare proxy for e.g. because of Let's Encrypt requires DNS validation). You can use Cloudflare or other proxy after Let's Encrypt DNS validation or you can directly use SSL certificate provided by WAF/CDN service (such as Cloudflare cert).
 						</p>
-					</section><!--//section-->
+					</section>
 					
 					<section class="docs-section" id="item-4-3">
 						<h2 class="section-heading">Customize nginx</h2>
@@ -519,7 +506,7 @@
 								<li>Run <code>sudo systemctl restart nginx.service</code></li>
 							</ul>
 						</p>
-					</section><!--//section-->
+					</section>
 
 					<section class="docs-section" id="item-4-4">
 						<h2 class="section-heading">Connect a GIT</h2>
@@ -533,7 +520,7 @@
 							<li>Run <code>sh /home/&lt;app-user&gt;/git/deploy.sh</code> to deploy Git on your server</li>
 							<li>You can create a PHP webhook (git ignored) into your /web folder with command with exec commant to deploy.sh</li>
 						</p>
-					</section><!--//section-->
+					</section>
 
 
 					<section class="docs-section" id="item-4-5">
@@ -560,7 +547,7 @@
 								</table>
 							</div>
 						</p>
-					</section><!--//section-->
+					</section>
 
 
 					<section class="docs-section" id="item-4-6">
@@ -574,7 +561,7 @@
 								<li>Run <code>sudo service supervisor restart</code></li>
 							</ul>
 						</p>
-					</section><!--//section-->
+					</section>
 
 					<section class="docs-section" id="item-4-7">
 						<h2 class="section-heading">Cron Jobs</h2>
@@ -587,7 +574,7 @@
 							</ul>
 							Take care that you application is running into <i>/home/&lt;app-user&gt;/web</i> directory.
 						</p>
-					</section><!--//section-->
+					</section>
 
 					<section class="docs-section" id="item-4-8">
 						<h2 class="section-heading">Local backups</h2>
@@ -602,19 +589,19 @@
 							<li>Run <code>sh /home/&lt;app-user&gt;/bks/fs.sh</code> to backup your <i>web</i> directory</li>
 							<li>Backups are avalable into /bks subdirs. You can use a cron to automate backups</li>
 						</p>
-					</section><!--//section-->
+					</section>
 
 					<section class="docs-section" id="item-4-9">
 						<h2 class="section-heading">s3 backups</h2>
 						<p>This function will coming soon...</p>
-					</section><!--//section-->
+					</section>
 
 					<section class="docs-section" id="item-4-10">
 						<h2 class="section-heading">Destroy an application</h2>
 						<p>To destroy an application you have just to click the trash icon: <i class="fas fa-trash" style="color:gray;"></i> of the desidered application and confirm destroy action.</p>
-					</section><!--//section-->  
+					</section>  
 
-			    </article><!--//docs-article-->
+			    </article>
 				
 
 
@@ -639,7 +626,7 @@
 								</ul>
 								<div class="minispace"></div>
 							</p>
-						</section><!--//docs-intro-->
+						</section>
 				    </header>
 				     <section class="docs-section" id="item-5-1">
 						<h2 class="section-heading">Create an alias</h2>
@@ -660,20 +647,20 @@
 								</table>
 							</div>
 						</p>
-					</section><!--//section-->
+					</section>
 					
 					<section class="docs-section" id="item-5-2">
 						<h2 class="section-heading">Get an SSL Certificate</h2>
 						<p>
 							In Alises list you can require a domain SSL free certificate just clicking on lock icon: <i class="fas fa-lock" style="color:gray;"></i> of desidered alias and waiting for a "green check" response. Before require a certificate, double check that the domain / subdomain DNS are setted on application server IP and that there is not any proxy in the middle (such as Cloudflare proxy for e.g. because of Let's Encrypt requires DNS validation). You can use Cloudflare or other proxy after Let's Encrypt DNS validation or you can directly use SSL certificate provided by WAF/CDN service (such as Cloudflare cert). No worry to work with Cipi proxed by Cloudflare!
 						</p>
-					</section><!--//section-->
+					</section>
 					
 					<section class="docs-section" id="item-5-3">
 						<h2 class="section-heading">Destroy an alias</h2>
 						<p>To destroy an alias you have just to click the trash icon: <i class="fas fa-trash" style="color:gray;"></i> of the desidered alias and confirm destroy action.</p>
-					</section><!--//section-->  
-			    </article><!--//docs-article-->
+					</section>  
+			    </article>
 
 
 
@@ -686,9 +673,9 @@
 						    <p>
 								Users area shows a list of Applications Users with their basic information and the reset user password button (key icon: <i class="fas fa-key" style="color:gray;"></i>).
 							</p>
-						</section><!--//docs-intro-->
+						</section>
 				    </header>
-			    </article><!--//docs-article-->
+			    </article>
 
 
 
@@ -701,9 +688,9 @@
 						    <p>
 								Databases area shows a list of Applications Dbs with their basic information, the reset db user password button (key icon: <i class="fas fa-key" style="color:gray;"></i>) and the phpmyadmin link button (table icon: <i class="fas fa-table" style="color:gray;"></i>).
 							</p>
-						</section><!--//docs-intro-->
+						</section>
 				    </header>
-			    </article><!--//docs-article-->
+			    </article>
 			    
 	
 			    
@@ -715,12 +702,12 @@
 				     <section class="docs-section" id="item-8-1">
 						<h2 class="section-heading">Manage accout</h2>
 						<p>Into settings area you can update your login information (username and password).</p>
-					</section><!--//section-->
+					</section>
 					
 					<section class="docs-section" id="item-8-2">
 						<h2 class="section-heading">SMTP Setup</h2>
 						<p>Into settings area you can set a SMTP configuration useful to active "password recovery" function and other future Cipi implementations (such as Servers Monitor Alerts).</p>
-					</section><!--//section-->
+					</section>
 					
 					<section class="docs-section" id="item-8-3">
 						<h2 class="section-heading">Migrations</h2>
@@ -728,15 +715,15 @@
 							With Cipi Import / Export function you can move your servers data from a Cipi installation to another with a simple click!<br>
 							This feature is active since Cipi v2.4.7 and let you to update Cipi core without losing/reconfig anything.
 						</p>
-					</section><!--//section-->
+					</section>
 
 					<section class="docs-section" id="item-8-4">
 						<h2 class="section-heading">API Key</h2>
 						<p>
 							Cipi API are not ready yet. :/ 
 						</p>
-				</section><!--//section-->
-			    </article><!--//docs-article-->
+				</section>
+			    </article>
 			    
 			    
 			    <article class="docs-article" id="section-9">
@@ -746,9 +733,9 @@
 						    <p>
 								Cipi API are not ready yet. :/ 
 							</p>
-						</section><!--//docs-intro-->
+						</section>
 				    </header>
-			    </article><!--//docs-article-->
+			    </article>
 				
 
 				<article class="docs-article" id="section-10">
@@ -760,9 +747,9 @@
 								You can follow Cipi Project RoadMap <a target="_blank" class="theme-link"  href="https://github.com/andreapollastri/cipi/projects"><u>here</u></a>. If you have any issue with Cipi, please open an <a target="_blank" class="theme-link"  href="https://github.com/andreapollastri/cipi/issues"><u>issue on Github</u></a>.<br>
 								If you discover a security vulnerability within Cipi, please open an <a target="_blank" class="theme-link"  href="https://github.com/andreapollastri/cipi/issues"><u>issue on Github</u></a> or send an e-mail to <a class="theme-link" href="mailto:andrea@pollastri.dev"><u>andrea@pollastri.dev</u></a>. All security vulnerabilities will be promptly addressed. 
 							</p>
-						</section><!--//docs-intro-->
+						</section>
 				    </header>
-			    </article><!--//docs-article-->
+			    </article>
 			    
 			    
 			    <article class="docs-article" id="section-11">
@@ -783,36 +770,28 @@
 									<li><a class="theme-link" href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for Cipi Docs Template</li>
 								</ul>
 							</p>
-						</section><!--//docs-intro-->
+						</section>
 				    </header>
-			    </article><!--//docs-article-->
+			    </article>
 
 		    </div> 
 	    </div>
-    </div><!--//docs-wrapper-->
-    
-   
-    <!-- Javascript -->          
+    </div>
+        
     <script src="assets/plugins/jquery-3.4.1.min.js"></script>
     <script src="assets/plugins/popper.min.js"></script>
     <script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>  
-    
-    
-    <!-- Page Specific JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/highlight.min.js"></script>
     <script src="assets/js/highlight-custom.js"></script> 
     <script src="assets/plugins/jquery.scrollTo.min.js"></script>
     <script src="assets/plugins/lightbox/dist/ekko-lightbox.min.js"></script> 
-	<script src="assets/js/docs.js"></script> 
-	
-	<!-- ga -->   
+	<script src="assets/js/docs.js"></script>   
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-1396990-60"></script>
 	<script>
-	window.dataLayer = window.dataLayer || [];
-	function gtag(){dataLayer.push(arguments);}
-	gtag('js', new Date());
-
-	gtag('config', 'UA-1396990-60');
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		gtag('config', 'UA-1396990-60');
 	</script>
 
 </body>
