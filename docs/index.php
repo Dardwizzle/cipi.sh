@@ -504,7 +504,7 @@
 					<section class="docs-section" id="item-4-2">
 						<h2 class="section-heading">Get an SSL Certificate</h2>
 						<p>
-							In Applications list you can require a main domain SSL free certificate just clicking on lock icon: <i class="fas fa-lock" style="color:gray;"></i> of desidered application and waiting for a "green check" response. Before require a certificate, double check that the domain / subdomain DNS are setted on application server IP and that there is not any proxy in the middle (such as Cloudflare proxy for e.g.).
+							In Applications list you can require a main domain SSL free certificate just clicking on lock icon: <i class="fas fa-lock" style="color:gray;"></i> of desidered application and waiting for a "green check" response. Before require a certificate, double check that the domain / subdomain DNS are setted on application server IP and that there is not any proxy in the middle (such as Cloudflare proxy for e.g.).<br>You can use Cloudflare or other proxy after Let's Encrypt DNS validation or you can use directly SSL certificate provided by WAF/CDN service (such as Cloudflare cert).
 						</p>
 					</section><!--//section-->
 					
@@ -665,7 +665,7 @@
 					<section class="docs-section" id="item-5-2">
 						<h2 class="section-heading">Get an SSL Certificate</h2>
 						<p>
-							In Alises list you can require a domain SSL free certificate just clicking on lock icon: <i class="fas fa-lock" style="color:gray;"></i> of desidered alias and waiting for a "green check" response. Before require a certificate, double check that the domain / subdomain DNS are setted on application server IP and that there is not any proxy in the middle (such as Cloudflare proxy for e.g.).
+							In Alises list you can require a domain SSL free certificate just clicking on lock icon: <i class="fas fa-lock" style="color:gray;"></i> of desidered alias and waiting for a "green check" response. Before require a certificate, double check that the domain / subdomain DNS are setted on application server IP and that there is not any proxy in the middle (such as Cloudflare proxy for e.g.).<br>You can use Cloudflare or other proxy after Let's Encrypt DNS validation or you can use directly SSL certificate provided by WAF/CDN service (such as Cloudflare cert).
 						</p>
 					</section><!--//section-->
 					
