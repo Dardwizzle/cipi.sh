@@ -244,16 +244,19 @@
 							<code>wget -O - https://cipi.sh/go.sh | bash</code>
 							<div class="space"></div>
 							<p>At the end of installation process, Cipi will show some password that you have to conserve.</p>
-							<div class="callout-block callout-block-info">
-								<div class="content">
-									<h4 class="callout-title">
-										<span class="callout-icon-holder mr-1">
-											<i class="fas fa-info-circle"></i>
-										</span>
-										Note
-									</h4>
-									<p>it doesn't work with IPv6... use only IPv4 and no localhost, VPS has to be online to work remotely with its clients servers.</p>
-								</div>
+							<p>Before you can install Cipi, please make sure your server fulfils these requirements:
+							<ul>
+								<li>Ubuntu 18.04 or 20.04 x86_64 LTS (Fresh installation)</li>
+								<li>If the server is virtual (VPS), OpenVZ may not be supported (Kernel 2.6)</li>
+								<li>Hardware Requirement: More than 1GB of HDD / At least 1 core processor / 512MB minimum RAM / At least 1 public IP Address (NAT VPS is not supported) / External firewall / For VPS providers such as AWS, those providers already include an external firewall for your VPS. Please open port 22, 80 and 443 to install Cipi.</li>
+								<li>Installation may take up to about ten minutes which may also depend on your server's internet speed. After the installation is completed, you are ready to use Cipi to manage your servers.</li>
+								<li>To correctly manage remote servers Cipi has to be on a public IP address... do not use it in localhost!</li>
+							</ul>
+							AWS by default disables root login. To login as root inside AWS, login as default user and then use command sudo -s.
+							<code>$ ssh ubuntu@&lt;your server IP address&gt;</code>
+							<code>$ ubuntu@aws:~$ sudo -s</code>
+							<code>$ root@aws:~# wget -O - https://cipi.sh/go.sh | bash	</code>
+						</p>
 							</div>
 						</p>
 						<div class="space"></div>
@@ -281,9 +284,6 @@
 								</div>
 							</div>
 						</p>
-						
-						
-						
 					</section>
 					
 					<section class="docs-section" id="item-1-3">
