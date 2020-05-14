@@ -243,7 +243,8 @@
 							<div class="minispace"></div>
 							<code>wget -O - https://cipi.sh/go.sh | bash</code>
 							<div class="space"></div>
-							At the end of installation process, Cipi will show some password that you have to conserve.<br>
+							At the end of installation process, Cipi will show some password that you have to conserve.
+							<div class="minispace"></div>
 							Before you can install Cipi, please make sure your server fulfils these requirements:
 							<ul>
 								<li>Ubuntu 18.04 or 20.04 x86_64 LTS (Fresh installation)</li>
@@ -252,10 +253,13 @@
 								<li>Installation may take up to about ten minutes which may also depend on your server's internet speed. After the installation is completed, you are ready to use Cipi to manage your servers.</li>
 								<li>To correctly manage remote servers Cipi has to be on a public IP address... do not use it in localhost!</li>
 							</ul>
+							<div class="minispace"></div>
 							AWS by default disables root login. To login as root inside AWS, login as default user and then use command sudo -s.
-							<code>$ ssh ubuntu@&lt;your server IP address&gt;</code>
-							<code>$ ubuntu@aws:~$ sudo -s</code>
-							<code>$ root@aws:~# wget -O - https://cipi.sh/go.sh | bash	</code>
+							<ul>
+								<li><code>$ ssh ubuntu@&lt;your server IP address&gt;</code></li>
+								<li><code>$ ubuntu@aws:~$ sudo -s</code></li>
+								<li><code>$ root@aws:~# wget -O - https://cipi.sh/go.sh | bash	</code></li>
+							</ul>
 						</p>
 						<div class="space"></div>
 						<h5>Via Composer (Laravel Project)</h5>
