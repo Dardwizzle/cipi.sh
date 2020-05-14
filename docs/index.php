@@ -243,8 +243,8 @@
 							<div class="minispace"></div>
 							<code>wget -O - https://cipi.sh/go.sh | bash</code>
 							<div class="space"></div>
-							<p>At the end of installation process, Cipi will show some password that you have to conserve.</p>
-							<p>Before you can install Cipi, please make sure your server fulfils these requirements:
+							At the end of installation process, Cipi will show some password that you have to conserve.<br>
+							Before you can install Cipi, please make sure your server fulfils these requirements:
 							<ul>
 								<li>Ubuntu 18.04 or 20.04 x86_64 LTS (Fresh installation)</li>
 								<li>If the server is virtual (VPS), OpenVZ may not be supported (Kernel 2.6)</li>
@@ -256,8 +256,6 @@
 							<code>$ ssh ubuntu@&lt;your server IP address&gt;</code>
 							<code>$ ubuntu@aws:~$ sudo -s</code>
 							<code>$ root@aws:~# wget -O - https://cipi.sh/go.sh | bash	</code>
-						</p>
-							</div>
 						</p>
 						<div class="space"></div>
 						<h5>Via Composer (Laravel Project)</h5>
