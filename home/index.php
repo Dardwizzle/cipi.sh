@@ -7,6 +7,18 @@
     <title>Cipi - An Open Source Cloud Control Panel</title>
     <meta name="description" content="Cipi is a Laravel based cloud server control panel that supports Digital Ocean, AWS, Vultr, Google Cloud, Linode, Azure and other VPS. It comes with nginx, Mysql, multi PHP-FPM versions, multi users, Supervisor, Composer, npm, free Let's Encrypt certificates, Git deployment, fail2ban and with a simple graphical interface useful to manage Laravel, Codeigniter, Symphony, WordPress or other PHP applications.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--SEO related tags-->
+    <meta property="og:locale" content="en_GB" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="assets/images/logo.png" />
+    <meta property="og:title" content="Cipi - An Open Source Cloud Control Panel" />
+    <meta property="og:description" content="Cipi is a Laravel based cloud server control panel that supports Digital Ocean, AWS, Vultr, Google Cloud, Linode, Azure and other VPS. It comes with nginx, Mysql, multi PHP-FPM versions, multi users, Supervisor, Composer, npm, free Let's Encrypt certificates, Git deployment, fail2ban and with a simple graphical interface useful to manage Laravel, Codeigniter, Symphony, WordPress or other PHP applications." />
+    <meta property="og:url" content="https://cipi.sh/home/" />
+    <meta property="twitter:title" content="Cipi - An Open Source Cloud Control Panel" />
+    <meta property="twitter:description" content="Cipi is a Laravel based cloud server control panel that supports Digital Ocean, AWS, Vultr, Google Cloud, Linode, Azure and other VPS. It comes with nginx, Mysql, multi PHP-FPM versions, multi users, Supervisor, Composer, npm, free Let's Encrypt certificates, Git deployment, fail2ban and with a simple graphical interface useful to manage Laravel, Codeigniter, Symphony, WordPress or other PHP applications." />
+    <meta property="twitter:image:src" content="assets/images/logo.png" />
+
     <!-- Favicon -->
     <link rel="icon" href="assets/images/favicon.png">
     
