@@ -212,9 +212,9 @@
                         <!-- Singel Screenshot Start -->
                         <div class="singel-screenshot">
                             <span class="overlay-bg"></span>
-                            <a href="assets/images/screens/login.png" class="img-poppu">
+                            <a href="assets/images/screens/original/login.png" class="img-poppu">
                                 <span class="single-img overlay-bg">
-                                    <img src="assets/images/screens/original/login.png" alt="">
+                                    <img src="assets/images/screens/login.png" alt="">
                                 </span>
                             </a>
                         </div>
@@ -224,9 +224,9 @@
                         <!-- Singel Screenshot Start -->
                         <div class="singel-screenshot">
                             <span class="overlay-bg"></span>
-                            <a href="assets/images/screens/dashboard.png" class="img-poppu">
+                            <a href="assets/images/screens/original/dashboard.png" class="img-poppu">
                                 <span class="single-img overlay-bg">
-                                    <img src="assets/images/screens/original/dashboard.png" alt="">
+                                    <img src="assets/images/screens/dashboard.png" alt="">
                                 </span>
                             </a>
                         </div>
@@ -236,9 +236,9 @@
                         <!-- Singel Screenshot Start -->
                         <div class="singel-screenshot">
                             <span class="overlay-bg"></span>
-                            <a href="assets/images/screens/servers.png" class="img-poppu">
+                            <a href="assets/images/screens/original/servers.png" class="img-poppu">
                                 <span class="single-img overlay-bg">
-                                    <img src="assets/images/screens/original/servers.png" alt="">
+                                    <img src="assets/images/screens/servers.png" alt="">
                                 </span>
                             </a>
                         </div>
@@ -248,9 +248,9 @@
                         <!-- Singel Screenshot Start -->
                         <div class="singel-screenshot">
                             <span class="overlay-bg"></span>
-                            <a href="assets/images/screens/applications.png" class="img-poppu">
+                            <a href="assets/images/screens/original/applications.png" class="img-poppu">
                                 <span class="single-img overlay-bg">
-                                    <img src="assets/images/screens/original/applications.png" alt="">
+                                    <img src="assets/images/screens/applications.png" alt="">
                                 </span>
                             </a>
                         </div>
@@ -272,9 +272,9 @@
                         <!-- Singel Screenshot Start -->
                         <div class="singel-screenshot">
                             <span class="overlay-bg"></span>
-                            <a href="assets/images/screens/aliases.png" class="img-poppu">
+                            <a href="assets/images/screens/original/aliases.png" class="img-poppu">
                                 <span class="single-img overlay-bg">
-                                    <img src="assets/images/screens/original/aliases.png" alt="">
+                                    <img src="assets/images/screens/aliases.png" alt="">
                                 </span>
                             </a>
                         </div>
@@ -284,9 +284,9 @@
                         <!-- Singel Screenshot Start -->
                         <div class="singel-screenshot">
                             <span class="overlay-bg"></span>
-                            <a href="assets/images/screens/users.png" class="img-poppu">
+                            <a href="assets/images/screens/original/users.png" class="img-poppu">
                                 <span class="single-img overlay-bg">
-                                    <img src="assets/images/screens/original/users.png" alt="">
+                                    <img src="assets/images/screens/users.png" alt="">
                                 </span>
                             </a>
                         </div>
@@ -296,9 +296,9 @@
                         <!-- Singel Screenshot Start -->
                         <div class="singel-screenshot">
                             <span class="overlay-bg"></span>
-                            <a href="assets/images/screens/settings.png" class="img-poppu">
+                            <a href="assets/images/screens/original/settings.png" class="img-poppu">
                                 <span class="single-img overlay-bg">
-                                    <img src="assets/images/screens/original/settings.png" alt="">
+                                    <img src="assets/images/screens/settings.png" alt="">
                                 </span>
                             </a>
                         </div>
