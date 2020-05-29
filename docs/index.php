@@ -769,6 +769,7 @@
 									<li><a class="theme-link" href="https://digitalocean.com" target="_blank">Digital Ocean</a> for test VPSs</li>
 									<li><a class="theme-link" href="https://startbootstrap.com/themes/sb-admin-2/" target="_blank">SB Admin 2</a> for Cipi Template</li>
 									<li><a class="theme-link" href="https://datatables.net/" target="_blank">Datatables</a> for Cipi Tables</li>
+									<li><a class="theme-link" href="https://mrgkanev.eu/" target="_blank">Gabriel Kanev</a> for cipi.sh website optimization</li>
 									<li><a class="theme-link" href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for Cipi Docs Template</li>
 								</ul>
 							</p>
