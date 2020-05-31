@@ -382,6 +382,7 @@
                                 <a href="/"><img src="assets/images/logo.png" alt=""></a>
                             </div>
                             <p>Made with <i class="fa fa-heart"></i> for developers</p>
+                            <p>Cipi is free for any personal and commercial use and it's a perfect alternative to Runcloud, Ploi.io, Serverpilot, Forge, Moss.sh and similar software...</p>
                             <div class="social-link">
                                 <a href="https://github.com/andreapollastri/cipi" target="_blank"><i class="fa fa-github"></i></a>
                                 <a href="https://www.facebook.com/cipipanel" target="_blank"><i class="fa fa-facebook"></i></a>
